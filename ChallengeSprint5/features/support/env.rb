@@ -10,7 +10,7 @@ ENVIRONMENT = ENV['ENVIRONMENT']
 ENVIRONMENT_CONFIG = YAML.load_file(File.dirname(__FILE__) + "/environment/#{ENVIRONMENT}.yml")
 puts ENVIRONMENT_CONFIG
 URL = ENVIRONMENT_CONFIG['url']
-
+#Recebi ajuda do Rhodrigo para essa parte do projeto.
 Capybara.register_driver :my_chrome do |app|
     browser = ENV.fetch('browser','chrome').to_sym
     caps = Selenium::WebDriver::Remote::Capabilities.chrome("goog:chromeOptions" =>
