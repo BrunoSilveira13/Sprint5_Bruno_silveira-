@@ -7,10 +7,9 @@ module Pages
         set_url '/'
         
         section :header, Sections::Header, 'header'
-
+        
         def registration()
             header.sign_in.click
-
         end    
 
         def search_for(product)

@@ -12,7 +12,6 @@ end
 Então('realizar o cadastro preenchendo os campos') do 
     @authentication = Pages::Authentication.new
     @authentication.registration()
-    binding.pry
 end
 
 Então('deve cadastrar o usuário ao sistema') do

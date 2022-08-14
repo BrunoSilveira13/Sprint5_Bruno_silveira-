@@ -14,6 +14,16 @@ module Pages
         elements :state, '#id_state option'
         element :postcode, '#postcode'
 
+        element :enter_email, '#email'
+        element :enter_passwd, '#passwd'
+        element :confirm_login, '#SubmitLogin'
+
+        def log_in()
+            enter_email.set('compassteste2@gmail.com')
+            enter_passwd.set('teste123')
+            confirm_login.click
+        end
+
         def registration()
             input_email.set Factory::Dynamic.user_email[:email]
             comfirm_email.click

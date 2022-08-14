@@ -17,10 +17,5 @@ Funcionalidade: login e cadastro
 
     @login
     Esquema do Cenário: Fazer login no sistema 
-        Quando realizar o login "<tipo>"
-        Então mensagem deve ser exibida "<msg>"
-        
-        Exemplos:
-        |tipo      |msg    |
-        | válido   |  N/A  |
-        | inválido |  N/A  |
+        Quando realizar o login com senha e e-mail
+        Então usuário deve ser logado
