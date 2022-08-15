@@ -1,5 +1,6 @@
 #language: pt
 
+@regression
 Funcionalidade: Busca um produto 
     COMO úsuario do Ecommerce Automation Practice
     QUERO buscar por um produto específico

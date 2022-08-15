@@ -6,7 +6,6 @@ end
 Quando('mudar a cor, o tamanho e a quantidade do produto') do
     @image_before = @product_page.image['src']
     @product_page.changes_product()
-    binding.pry
 end
   
 Então('deverá alternar a imagem do produto') do

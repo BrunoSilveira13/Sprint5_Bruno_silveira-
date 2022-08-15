@@ -1,5 +1,7 @@
 #language: pt 
 
+@regression
+@login_registration
 Funcionalidade: login e cadastro 
     COMO usuário do sistema
     QUERO me autenticar na aplicação  

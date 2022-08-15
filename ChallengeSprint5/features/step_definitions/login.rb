@@ -1,7 +1,7 @@
 Quando('realizar o login com senha e e-mail') do
     @authentication = Pages::Authentication.new
     @authentication.log_in()
-    binding.pry
+
 end
   
 Então('usuário deve ser logado') do

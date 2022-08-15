@@ -1,9 +1,10 @@
 #language: pt
 
+@regression
 Funcionalidade: Pagina do produto 
     COMO usuário do sistema 
     QUERO mudar a cor, o tamanho e a quantidade de um produto especifico 
-    PARA adicionalo ao meu carrinho
+    PARA deixar o produto ao meu gosto
 
     Contexto: 
         Dado que esteja na home
