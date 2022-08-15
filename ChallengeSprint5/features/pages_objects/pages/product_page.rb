@@ -28,7 +28,7 @@ module Pages
             input_passwd.set('teste123')
             cofirm_login.click
             comfirm_address.click
-            #binding.pry
+            binding.pry
             agree.click
             go_to_payment.click
             pay_by_bank_wire.click

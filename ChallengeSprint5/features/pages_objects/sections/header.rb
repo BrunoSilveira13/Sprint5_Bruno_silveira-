@@ -6,5 +6,6 @@ module Sections
         element :sign_in, '.header_user_info a'
         element :input_email, '#email_create'
         element :comfirm_email, '#SubmitCreate'
+        
     end       
 end
