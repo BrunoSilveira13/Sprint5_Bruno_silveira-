@@ -5,5 +5,8 @@ module Pages
         set_url '/'
 
         sections :products,Sections::Products ,'div.product-container'
+        def access_product_page(index)
+            products[index].name.click
+        end
     end
 end

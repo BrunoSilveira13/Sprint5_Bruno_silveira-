@@ -15,7 +15,7 @@ module Pages
         def search_for(product)
             header.btn_open_search.click
             header.input_search.set product
-            header.confirme_search.click
+            header.confirm_search.click
         end    
     end
 end
